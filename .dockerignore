@@ -1,0 +1,10 @@
+.git
+.gitignore
+venv
+**/__pycache__
+**/.ipynb_checkpoints
+dataset
+*.ipynb
+artifacts/*.joblib
+!artifacts/phishing_detector_www_no_erasure_candidate.joblib
+whitelist/*.zip

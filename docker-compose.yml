@@ -1,0 +1,11 @@
+services:
+  phishiv2:
+    platform: linux/arm64
+    build: .
+    image: phishiv2:latest
+    ports:
+      - "8090:8090"
+    restart: unless-stopped
+    environment:
+      PHISHIV2_HOST: 0.0.0.0
+      PHISHIV2_PORT: 8090

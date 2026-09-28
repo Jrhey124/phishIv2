@@ -1,0 +1,5 @@
+numpy>=2.0
+scikit-learn>=1.9
+joblib>=1.5
+tldextract>=5.3
+rapidfuzz>=3.14
